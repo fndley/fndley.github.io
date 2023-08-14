@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0px;
+}
+
+h3 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background: url(/images/home\ bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(0, 255, 157);
+}
+
+.card {
+    text-align: center;
+}
+
+.card img {
+    border-radius: 70%;
+    margin: 5vh;
+    padding: 20;
+    border: 4px dashed blue;
+    object-fit: cover;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5vh;
+}
+
+a {
+    margin-right: 8px;
+    color: rgb(229, 255, 0);
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 5px;
+    text-shadow: 4px 4px 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ul1 {
+    text-align: left;
+}
+
+.wrapper .link a:hover {
+    color: rgb(255, 0, 191);
+}
+
+.navbar .nav a:hover {
+    color: rgb(0, 217, 255);
+}
+
+legend {
+    color: rgb(255, 89, 0);
+    text-shadow: 5px 5px 5px black;
+}
+
+fieldset {
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
